@@ -40,6 +40,8 @@ function createHtml(someList: Task[]) {
     todo.appendChild(deleteBtn);
     deleteBtn.addEventListener("click", () => {
       deleteTask(todoList, i);
+      getFromLS();
+      createHtml(todoList);
     });
   }
 }
