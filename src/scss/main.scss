@@ -43,5 +43,9 @@ body {
         color: white;
         font-size: 50px;
         list-style: none;
+        .done {
+            text-decoration: line-through;
+            background-color: green;
+        }
     }
 }
