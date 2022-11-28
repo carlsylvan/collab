@@ -38,7 +38,9 @@ function createHtml(someList: Task[]) {
     todoContainer.appendChild(todo);
     todo.appendChild(todoDesc);
     todo.appendChild(deleteBtn);
-    deleteBtn.addEventListener("click", deleteTask);
+    deleteBtn.addEventListener("click", () => {
+      deleteTask(todoList);
+    });
   }
 }
 
