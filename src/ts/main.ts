@@ -45,3 +45,8 @@ function createHtml(someList: Task[]) {
     todoList = JSON.parse(localStorage.getItem("todolist") || "[]");
   }
 }
+
+function deleteTask(taskList: Task[], index: number) {
+  taskList.splice(index, 1);
+  sendToLS(taskList);
+}
