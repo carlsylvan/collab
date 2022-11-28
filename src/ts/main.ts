@@ -40,10 +40,6 @@ function createHtml(someList: Task[]) {
     todo.appendChild(deleteBtn);
     deleteBtn.addEventListener("click", deleteTask);
   }
-  let todoList: Task[] = [];
-  function getFromLS() {
-    todoList = JSON.parse(localStorage.getItem("todolist") || "[]");
-  }
 }
 
 function deleteTask(taskList: Task[], index: number) {
