@@ -11,6 +11,7 @@ todoForm.addEventListener("submit", (e: Event) => {
   e.preventDefault();
   let todo = new Task(inputEL.value, true);
   todoList.push(todo);
+  inputEL.value = "";
   sendToLS(todoList);
   getFromLS();
   createHtml(todoList);
