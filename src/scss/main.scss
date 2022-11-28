@@ -2,13 +2,13 @@ html,
 body {
   margin: 0;
   height: 100%;
+  color: black;
 }
 
 body {
   background-color: antiquewhite;
   header {
     h1 {
-      color: white;
       font-size: 50px;
       text-align: center;
     }
@@ -25,13 +25,12 @@ main {
     justify-content: center;
     button {
       background-color: white;
-      color: grey;
       border: 0;
       width: 20%;
       border-radius: 18px;
       font-size: xx-large;
       cursor: pointer;
-      transition: all 0.25s ease-in;
+      transition: all 0.25s ease-in-out;
       &:hover {
         color: black;
       }
@@ -55,9 +54,13 @@ ol {
   li {
     display: flex;
     align-items: end;
+    span {
+      cursor: pointer;
+      color: black;
+    }
     .done {
-      text-decoration: line-through;
-      background-color: green;
+      text-decoration: line-through green;
+      opacity: 0.5;
     }
     .delete-button {
       width: 100px;
@@ -66,7 +69,7 @@ ol {
       cursor: pointer;
       margin-left: 10px;
       font-size: 18px;
-      transition: all 0.25s ease-in;
+      transition: all 0.25s ease-in-out;
       &:hover {
         background-color: white;
       }
