@@ -35,6 +35,7 @@ function createHtml(someList: Task[]) {
     let todoDesc: HTMLSpanElement = document.createElement("span");
     todoDesc.innerHTML = someList[i].taskDescription;
     let deleteBtn: HTMLButtonElement = document.createElement("button");
+    deleteBtn.classList.add("delete-button");
     deleteBtn.innerHTML = "Delete";
     todoContainer.appendChild(todo);
     todo.appendChild(todoDesc);
