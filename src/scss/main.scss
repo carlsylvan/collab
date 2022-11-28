@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background-color: yellowgreen;
+  background-color: antiquewhite;
   header {
     h1 {
       color: white;
@@ -13,57 +13,62 @@ body {
       text-align: center;
     }
   }
-  main {
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  form {
+    width: 100%;
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    form {
-      width: 100%;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      button {
-        background-color: white;
-        color: grey;
-        border: 0;
-        width: 20%;
-        border-radius: 18px;
-        font-size: xx-large;
-        cursor: pointer;
-        transition: all 0.25s ease-in;
-        &:hover {
-          color: black;
-        }
-      }
-      #myInput {
-        border-radius: 18px;
-        outline: none;
-        width: 75%;
-        height: 100px;
-        font-size: xx-large;
-        margin: 0px 10px;
+    justify-content: center;
+    button {
+      background-color: white;
+      color: grey;
+      border: 0;
+      width: 20%;
+      border-radius: 18px;
+      font-size: xx-large;
+      cursor: pointer;
+      transition: all 0.25s ease-in;
+      &:hover {
+        color: black;
       }
     }
+    #myInput {
+      border-radius: 18px;
+      outline: none;
+      width: 75%;
+      height: 100px;
+      font-size: xx-large;
+      margin: 0px 10px;
+    }
   }
-  ol {
-    width: 70%;
-    color: white;
-    font-size: 50px;
-    list-style: none;
-    li {
-      display: flex;
-      align-items: end;
-      .delete-button {
-        width: 100px;
-        height: 35px;
-        border-radius: 18px;
-        cursor: pointer;
-        margin-left: 10px;
-        font-size: 18px;
-        transition: all 0.25s ease-in;
-        &:hover {
-          background-color: white;
-        }
+}
+ol {
+  width: 70%;
+  color: white;
+  font-size: 50px;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: end;
+    .done {
+      text-decoration: line-through;
+      background-color: green;
+    }
+    .delete-button {
+      width: 100px;
+      height: 35px;
+      border-radius: 18px;
+      cursor: pointer;
+      margin-left: 10px;
+      font-size: 18px;
+      transition: all 0.25s ease-in;
+      &:hover {
+        background-color: white;
       }
     }
   }

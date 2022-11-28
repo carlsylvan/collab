@@ -40,6 +40,9 @@ function createHtml(someList: Task[]) {
     todoContainer.appendChild(todo);
     todo.appendChild(todoDesc);
     todo.appendChild(deleteBtn);
+    todoDesc.addEventListener("click", ()=>{
+        todoDesc.classList.toggle("done");
+    })
     deleteBtn.addEventListener("click", () => {
       deleteTask(todoList, i);
       getFromLS();
