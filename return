@@ -1,0 +1,229 @@
+[33mcommit 7bcd22e126a090fb5771fda1310fafa231c2c8cc[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 15:09:18 2022 +0100
+
+    changes
+
+[33mcommit e9126411b964aa4654725d4a979548cc05c56def[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 15:05:29 2022 +0100
+
+    changes
+
+[33mcommit aade36e702048286b7955dec34a558003d34bc73[m
+Merge: 922c8fb 9363af4
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 14:59:20 2022 +0100
+
+    Merge branch 'develop' of https://github.com/carlsylvan/collab into develop
+
+[33mcommit 922c8fb6b044ae622e5edcd46aa364c2d384c90c[m[33m ([m[1;31morigin/styleDeleteButton[m[33m)[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 14:55:51 2022 +0100
+
+    Added styling on delete button
+
+[33mcommit 9363af41ddac4c1aa890f20104c5bc0737db0be2[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 14:49:14 2022 +0100
+
+    added pointer add btn
+
+[33mcommit 271fea37242043a5ccc661a83880538b805c34e5[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 14:47:57 2022 +0100
+
+    new background color
+
+[33mcommit 30ac2035fb91ead1d0ea1cb073bdd29c2a1f290f[m
+Merge: 8379bbf 791c443
+Author: sergejsvoronins <svoronins@gmail.com>
+Date:   Mon Nov 28 14:45:56 2022 +0100
+
+    Merge branch 'feature-lievent' into develop
+
+[33mcommit 791c443c3a52ab0bd388d321584756e09b72298a[m[33m ([m[1;32mfeature-lievent[m[33m)[m
+Author: sergejsvoronins <svoronins@gmail.com>
+Date:   Mon Nov 28 14:44:46 2022 +0100
+
+    span event is added
+
+[33mcommit 8379bbf3a2ebdaf349ed9aaa7d7b23ff522ce16c[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 14:43:07 2022 +0100
+
+    added done styling
+
+[33mcommit a80efefdf7785121aa59b1344d25212e91a7927f[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 14:35:57 2022 +0100
+
+    Delete input text logic
+
+[33mcommit fd492fc700084f17254ed73434ceb2ddf89181f1[m
+Author: sergejsvoronins <svoronins@gmail.com>
+Date:   Mon Nov 28 14:33:07 2022 +0100
+
+    deleteBtn event has been fixed
+
+[33mcommit db1c9c23d166fa6becff0f564abc067a2b70ad64[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 14:28:36 2022 +0100
+
+    fixed bug
+
+[33mcommit 3580bb2102879e9c1a0df72577625ef32a6c41ea[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 14:26:06 2022 +0100
+
+    Created anonymous delete task function
+
+[33mcommit 20bfb09da54d57381ca7fab9100f39ab01da0c39[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 14:23:44 2022 +0100
+
+    Deleted getItem twin
+
+[33mcommit 7673fa464107d6fc10a952c03209d993340e54b3[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 14:21:49 2022 +0100
+
+    Added delete task function
+
+[33mcommit 42cd19f4301eef6e813aae5f8dc856832bc3ba0a[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 14:16:40 2022 +0100
+
+    Fixed bug
+
+[33mcommit 8abb4f52b3b2d9df5a29002f32a3ed9ba4236295[m
+Merge: 7c760ee 79e077f
+Author: sergejsvoronins <svoronins@gmail.com>
+Date:   Mon Nov 28 14:12:48 2022 +0100
+
+    Merge branch 'develop' of https://github.com/carlsylvan/collab into develop
+
+[33mcommit 7c760ee23cf1ae248741045de06ebd6adc054a82[m[33m ([m[1;32mfeature-createhtml[m[33m)[m
+Author: sergejsvoronins <svoronins@gmail.com>
+Date:   Mon Nov 28 14:07:25 2022 +0100
+
+    createHTML is done
+
+[33mcommit c5b4bf49fe733b1490bc94b009adbb53e43c8f5b[m
+Author: sergejsvoronins <svoronins@gmail.com>
+Date:   Mon Nov 28 14:07:06 2022 +0100
+
+    createHtml is done
+
+[33mcommit 79e077f3fb3e0d21c9d2dcfbd9c7e69208ee89d5[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 14:05:31 2022 +0100
+
+    padding spacing
+
+[33mcommit 32c4c30d95a4e0eab82ea8a9b4f9d4264f0e32fe[m
+Merge: d0697ba be9fb9b
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 13:57:40 2022 +0100
+
+    Merge branch 'feature-htmlscss' into develop
+
+[33mcommit be9fb9b3d4aa564cc8e04422907998f7f01c664d[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 13:56:56 2022 +0100
+
+    first style
+
+[33mcommit c1bfd28f5a0b1c5288f8c8f41774d9612a5fdbcd[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 13:30:12 2022 +0100
+
+    some styling
+
+[33mcommit d0697ba5bae1e20ead448656608b5bb7fca8b951[m[33m ([m[1;31morigin/deleteTask[m[33m)[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 13:26:19 2022 +0100
+
+    Added deleteTask function
+
+[33mcommit 3fae0b9931b2bf178e8aabd3e9f55f9a62bc05b6[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 12:59:51 2022 +0100
+
+    removed unused list
+
+[33mcommit f81da4dcd5ca2d1f6fedc91704eda159bf343691[m
+Merge: 72c731d 85e7bc6
+Author: sergejsvoronins <svoronins@gmail.com>
+Date:   Mon Nov 28 12:50:18 2022 +0100
+
+    Merge branch 'develop' of https://github.com/carlsylvan/collab into develop
+
+[33mcommit 72c731d14ff1f209143783448ce898d7ab2421fb[m
+Merge: f40eab0 17d2bbd
+Author: sergejsvoronins <svoronins@gmail.com>
+Date:   Mon Nov 28 12:50:13 2022 +0100
+
+    Merge branch 'feature-loadfromls' into develop
+
+[33mcommit 85e7bc64768cfaba1805c6be5c937d1323c57b53[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 12:47:37 2022 +0100
+
+    Changed task datatype to Task Class list
+
+[33mcommit 17d2bbd4ba382b799acd6d6e6fc924e09847db97[m[33m ([m[1;31morigin/feature-loadfromls[m[33m, [m[1;32mfeature-loadfromls[m[33m)[m
+Author: sergejsvoronins <svoronins@gmail.com>
+Date:   Mon Nov 28 12:46:24 2022 +0100
+
+    function getFromLs is done
+
+[33mcommit f40eab07125c854c3307f1382d7e1c57453b3597[m
+Merge: 8fb750e 83682ce
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 12:46:11 2022 +0100
+
+    Merge branch 'develop' of https://github.com/carlsylvan/collab into develop
+
+[33mcommit 8fb750ec710051bf15fdc165d56d6f6a70ba386f[m[33m ([m[1;31morigin/setItem[m[33m)[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 12:43:18 2022 +0100
+
+    Created function for send tast to local storage
+
+[33mcommit 83682cec952f85a3870096fa456ba9bd4d48b542[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 12:37:59 2022 +0100
+
+    added Task class
+
+[33mcommit b198bf7c9034ba1bb83da03ee74459bbc7f7acca[m
+Merge: 1f3a763 08c44c4
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 11:26:36 2022 +0100
+
+    Merge branch 'develop' of https://github.com/carlsylvan/collab into develop
+
+[33mcommit 1f3a7632851dce7c1def0a13927705c496afaa43[m
+Author: ehnvik <gustav.ehnvik@gmail.com>
+Date:   Mon Nov 28 11:24:00 2022 +0100
+
+    Added script and link tag to html
+
+[33mcommit 08c44c4e0fc25bfd8e365aba7c0c76ec618f620b[m[33m ([m[1;31morigin/feature-html[m[33m)[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 11:22:29 2022 +0100
+
+    added form html
+
+[33mcommit b9630c15b06e1f26f5ce8fdb60e90d7f486bd46a[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 28 10:49:48 2022 +0100
+
+    first commit
+
+[33mcommit a93ebb6ba56884e390ae1d484e6d2ac4addedeea[m
+Author: carlsylvan <carlsylvan@gmail.com>
+Date:   Mon Nov 21 08:33:18 2022 +0100
+
+    first commit

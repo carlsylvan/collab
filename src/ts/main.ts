@@ -1,5 +1,8 @@
 import { Task } from "./models/Task";
 let todoList: Task[] = [];
+// Here are loading data from localStorage direct when browser is starting/refreshing
+getFromLS();
+createHtml(todoList);
 let todoForm: HTMLFormElement = document.getElementById(
   "todoForm"
 ) as HTMLFormElement;
@@ -22,7 +25,10 @@ function sendToLS(task: Task[]): void {
 }
 
 function getFromLS() {
-  todoList = JSON.parse(localStorage.getItem("todolist") || "[]");
+  let todoArray : [] = JSON.parse(localStorage.getItem("todolist") || "[]");
+  todoList = todoArray.map((todos:Task)=>{
+    return new Task(todos.taskDescription, todos.status)
+  })
 }
 
 function createHtml(someList: Task[]) {

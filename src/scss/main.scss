@@ -55,6 +55,8 @@ ol {
     display: flex;
     align-items: end;
     span {
+      display: flex;
+      align-items: flex-end;
       cursor: pointer;
       color: black;
       text-align: end;
