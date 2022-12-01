@@ -46,8 +46,21 @@ function createHtml(someList: Task[]) {
     todoContainer.appendChild(todo);
     todo.appendChild(todoDesc);
     todo.appendChild(deleteBtn);
+    if(someList[i].status===true){
+      todoDesc.classList.remove("done");
+    }
+    else {
+      todoDesc.classList.add("done");
+    }
     todoDesc.addEventListener("click", ()=>{
-        todoDesc.classList.toggle("done");
+      if(someList[i].status===false){
+        someList[i].status = true;
+      }
+      else {
+        someList[i].status = false;
+      }
+        sendToLS(someList);
+        createHtml(someList);
     })
     deleteBtn.addEventListener("click", () => {
       deleteTask(todoList, i);
